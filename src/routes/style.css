@@ -1,0 +1,81 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.trans{
+    transition-duration: 0.5s;
+    
+}
+
+.trans:hover{
+    transform:scale(1.05);
+    
+}
+
+#one{
+    animation-name:koko;
+    animation-duration:2s;
+    position: relative;
+}
+@keyframes koko {
+  0%{
+    width: 300px;
+     height: 300px
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: rgb(84, 112, 103);
+}
+div,li{
+    font-family: cursive;
+}
+
+.pro{
+    animation-name:gogo;
+    animation-duration:1s;
+    position: relative;
+    transition-duration: 0.5s;
+}
+@keyframes gogo {
+  0%{
+   justify-content: center;
+    width: 500px;
+
+    }
+}
+.max{
+    animation-name:kogo;
+    animation-duration:1s;
+    position: relative;
+    transition-duration: 0.5s;
+}
+@keyframes kogo {
+    0%{
+     justify-content: center;
+      width: 500px;
+  
+      }
+  }
+  .pro:hover{
+    transform:scale(1.05);
+    
+}
+.max:hover{
+    transform:scale(1.05);
+    
+}
+h1{
+    font-family: cursive;
+}
+
+.zdat{
+    transition-duration: 0.5s;
+}
+
+.zdat:hover{
+    transform:scale(1.02);
+}
