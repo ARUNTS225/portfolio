@@ -3,7 +3,7 @@
   function Profile() {
     return (
       <>
-    
+    <div class="container">
   
            <div class="row ">
             {/* card */}
@@ -15,10 +15,10 @@
               <li class="list-group-item d-flex justify-content-center"><i class="fa-duotone fa-solid fa-calendar-days" style={{color: "#2f6f6b"}}>
                 22 April 2002</i></li>
               <li class="list-group-item d-flex justify-content-center"> <i class="fa-solid fa-person-rays" style={{color: "#2f6f6b"}}>Single</i></li>
-              <li class="list-group-item d-flex justify-content-center"><i class="fa-brands fa-github" style={{color: "#2f6f6b"}}>ARUNTS225</i></li>
-              <li class="list-group-item d-flex justify-content-center">
-                <i class="fa-duotone fa-solid fa-envelope rounded" style={{color: "#2f6f6b"}}>
-                arun220420025@gmail.com</i></li>
+              <li class="list-group-item d-flex justify-content-center " ><i class="fa-brands fa-github" style={{color: "#2f6f6b"}}>ARUNTS225</i></li>
+              <li class="list-group-item d-flex justify-content-center" style={{color: "#2f6f6b"}}>
+                <i class="fa-duotone fa-solid fa-envelope rounded h5" style={{color: "#2f6f6b"}}>
+                </i>arun220420025@gmail.com1</li>
               <li class="list-group-item d-flex justify-content-center">
           <i class="fa-solid fa-phone" style={{color: "#2f6f6b"}}>+919361555066</i></li>
             </ul>
@@ -73,7 +73,7 @@
       
     </tbody>
            </table></div>
-            
+           </div>
       </>
       
     );

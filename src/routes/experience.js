@@ -5,12 +5,12 @@ import './style.css'
   function Exp() {
     return (
       <>
-      {/* image */}
+      {/* image */}<div class="container-fluid">
       <div class="m-5 d-flex justify-content-center">
        <img id="one" src="https://images.unsplash.com/photo-1727985622854-4f145fe7ecf6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDB8fHxlbnwwfHx8fHw%3D"
         alt="..."  class=" d-flex justify-content-stretch" style={{width:"100vw",height:"50vh"}}></img></div>
       
-<div class="container-fluid">
+
   <p class="display-3  d-flex justify-content-center text-color-dark">Courses</p>
 <div class="row">
       {/* card guvi */}
